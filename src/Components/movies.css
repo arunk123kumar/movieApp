@@ -1,0 +1,101 @@
+.poster img {
+    margin-top: 1em;
+    padding-right: .5em;
+    padding-left: .5em;
+    height: 450px;
+    opacity: 90%;
+}
+
+.movie-title,
+.detailsbutton {
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+
+
+.poster img:hover {
+    opacity: 100%;
+}
+
+.movie-items {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2em;
+    margin-top: 3em;
+    background-color: rgb(39, 5, 58);
+    border-radius: 0.5em;
+    color: white;
+    width: 350px;
+    align-items: center;
+
+}
+
+.movieinfo {
+
+    display: flex;
+}
+
+.noMovie {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+
+
+}
+
+.menu {
+    background-color: rgb(39, 5, 58);
+    font-weight: 1em;
+
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    border: 1px solid white
+}
+
+
+.MuiInputLabel-outlined {
+    color: #ffffff;
+    text-decoration-color: #ffffff;
+}
+
+.MuiInputBase-formControl {
+
+    border: 2px solid white !important;
+}
+
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+    color: #ffffff !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    color: white;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    background-color: white;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input,
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input:focus  {
+    background-color: white;
+}
+
+
+.resultTitle {
+    padding: 0.2em 1em;
+    font-size: 3em;
+    background-color: lightgray;
+    margin: 1em 0.2em 0em 0.7em;
+    border-radius: 9px;
+}
+
+.footer {
+    background-color: crimson;
+    padding: .6em;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin: 1em 0 0 0;
+}
